@@ -51,8 +51,8 @@
 		)
 		(symbol "Raspberry_Pi_Zero_2_W_Symbol_0_1"
 			(rectangle
-				(start -10.16 17.78)
-				(end 11.43 -30.48)
+				(start -29.21 17.78)
+				(end 33.02 -35.56)
 				(stroke
 					(width 0)
 					(type default)
@@ -64,9 +64,9 @@
 		)
 		(symbol "Raspberry_Pi_Zero_2_W_Symbol_1_1"
 			(pin input line
-				(at -12.7 16.51 0)
+				(at -31.75 16.51 0)
 				(length 2.54)
-				(name "Pin_0"
+				(name "3.3V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -82,9 +82,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 13.97 0)
+				(at -31.75 13.97 0)
 				(length 2.54)
-				(name "Pin_1"
+				(name "GPIO_2_Serial_Data_I2C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -100,9 +100,243 @@
 				)
 			)
 			(pin input line
-				(at -12.7 11.43 0)
+				(at -31.75 -8.89 0)
 				(length 2.54)
-				(name "Pin_2"
+				(name "3.13V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 15.24 180)
+				(length 2.54)
+				(name "TestPin101"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "101"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 12.7 180)
+				(length 2.54)
+				(name "TestPin102"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "102"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 10.16 180)
+				(length 2.54)
+				(name "TestPin103"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "103"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -31.75 -11.43 0)
+				(length 2.54)
+				(name "3.14V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -31.75 -13.97 0)
+				(length 2.54)
+				(name "3.15V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -31.75 -16.51 0)
+				(length 2.54)
+				(name "3.16V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -31.75 -19.05 0)
+				(length 2.54)
+				(name "3.17V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -31.75 -21.59 0)
+				(length 2.54)
+				(name "3.18V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -31.75 -24.13 0)
+				(length 2.54)
+				(name "3.19V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -31.75 -26.67 0)
+				(length 2.54)
+				(name "3.20V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -31.75 -29.21 0)
+				(length 2.54)
+				(name "3.21V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -31.75 -31.75 0)
+				(length 2.54)
+				(name "3.22V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -31.75 11.43 0)
+				(length 2.54)
+				(name "GPIO3_Serial_Clock_I2C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -118,9 +352,27 @@
 				)
 			)
 			(pin input line
-				(at -12.7 8.89 0)
+				(at -31.75 -34.29 0)
 				(length 2.54)
-				(name "Pin_3"
+				(name "3.23V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -31.75 8.89 0)
+				(length 2.54)
+				(name "GPIO_4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -136,9 +388,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 6.35 0)
+				(at -31.75 6.35 0)
 				(length 2.54)
-				(name "Pin_4"
+				(name "Ground"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -154,9 +406,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 3.81 0)
+				(at -31.75 3.81 0)
 				(length 2.54)
-				(name "Pin_5"
+				(name "GPIO_17_Chip_Enable-CE1_(SPI1)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -172,9 +424,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 1.27 0)
+				(at -31.75 1.27 0)
 				(length 2.54)
-				(name "Pin_6"
+				(name "3.9V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -190,9 +442,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -1.27 0)
+				(at -31.75 -1.27 0)
 				(length 2.54)
-				(name "Pin_7"
+				(name "3.10V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -208,9 +460,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -3.81 0)
+				(at -31.75 -3.81 0)
 				(length 2.54)
-				(name "Pin_8"
+				(name "3.11V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -218,6 +470,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -31.75 -6.35 0)
+				(length 2.54)
+				(name "3.12V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
