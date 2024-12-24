@@ -63,6 +63,14 @@
 			)
 		)
 		(symbol "Raspberry_Pi_Zero_2_W_Symbol_1_1"
+			(text "From Laptop!\n"
+				(at 1.778 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin input line
 				(at -31.75 16.51 0)
 				(length 2.54)
