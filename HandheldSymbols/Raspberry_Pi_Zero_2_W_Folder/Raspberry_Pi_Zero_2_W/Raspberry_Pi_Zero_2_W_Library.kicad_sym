@@ -6,7 +6,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "PI"
+		(property "Reference" "Raspberry_Pi_Zero_2_W_For_Schematic"
 			(at 0 21.082 0)
 			(effects
 				(font
@@ -52,7 +52,7 @@
 		(symbol "Raspberry_Pi_Zero_2_W_Symbol_0_1"
 			(rectangle
 				(start -29.21 17.78)
-				(end 33.02 -35.56)
+				(end 33.02 -33.02)
 				(stroke
 					(width 0)
 					(type default)
@@ -63,7 +63,7 @@
 			)
 		)
 		(symbol "Raspberry_Pi_Zero_2_W_Symbol_1_1"
-			(text "From Laptop!\n"
+			(text "From PC Now!"
 				(at 1.778 12.7 0)
 				(effects
 					(font
@@ -110,7 +110,7 @@
 			(pin input line
 				(at -31.75 -8.89 0)
 				(length 2.54)
-				(name "3.13V"
+				(name "GPIO_09_MISO_(SPI_0)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -126,63 +126,9 @@
 				)
 			)
 			(pin input line
-				(at 35.56 15.24 180)
-				(length 2.54)
-				(name "TestPin101"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "101"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 35.56 12.7 180)
-				(length 2.54)
-				(name "TestPin102"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "102"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 35.56 10.16 180)
-				(length 2.54)
-				(name "TestPin103"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "103"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -31.75 -11.43 0)
 				(length 2.54)
-				(name "3.14V"
+				(name "GPIO_11_SCLK_(SPI_0)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -200,7 +146,7 @@
 			(pin input line
 				(at -31.75 -13.97 0)
 				(length 2.54)
-				(name "3.15V"
+				(name "Ground"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -218,10 +164,10 @@
 			(pin input line
 				(at -31.75 -16.51 0)
 				(length 2.54)
-				(name "3.16V"
+				(name "GPIO_0_EEPROM_Serial_DATA_(I2C)"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.0922 1.0922)
 						)
 					)
 				)
@@ -236,7 +182,7 @@
 			(pin input line
 				(at -31.75 -19.05 0)
 				(length 2.54)
-				(name "3.17V"
+				(name "GPIO_5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -254,7 +200,7 @@
 			(pin input line
 				(at -31.75 -21.59 0)
 				(length 2.54)
-				(name "3.18V"
+				(name "GPIO_6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -272,7 +218,7 @@
 			(pin input line
 				(at -31.75 -24.13 0)
 				(length 2.54)
-				(name "3.19V"
+				(name "GPIO_13_(PWM)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -290,10 +236,10 @@
 			(pin input line
 				(at -31.75 -26.67 0)
 				(length 2.54)
-				(name "3.20V"
+				(name "[PWM]_GPIO_19_MISO_(SPI_1)"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.2446 1.2446)
 						)
 					)
 				)
@@ -308,7 +254,7 @@
 			(pin input line
 				(at -31.75 -29.21 0)
 				(length 2.54)
-				(name "3.21V"
+				(name "GPIO_26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -326,7 +272,7 @@
 			(pin input line
 				(at -31.75 -31.75 0)
 				(length 2.54)
-				(name "3.22V"
+				(name "GPIO_26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -360,9 +306,9 @@
 				)
 			)
 			(pin input line
-				(at -31.75 -34.29 0)
+				(at 35.56 16.51 180)
 				(length 2.54)
-				(name "3.23V"
+				(name "5V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -370,6 +316,168 @@
 					)
 				)
 				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 13.97 180)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 11.43 180)
+				(length 2.54)
+				(name "Ground"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 8.89 180)
+				(length 2.54)
+				(name "GPIO_14_(UART_TX)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 6.35 180)
+				(length 2.54)
+				(name "GPIO_15_(UART_RX)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 3.81 180)
+				(length 2.54)
+				(name "GPIO_18_Chip_Enable-CE0_(SP1)_[PWM]"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 1.27 180)
+				(length 2.54)
+				(name "Ground"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 -1.27 180)
+				(length 2.54)
+				(name "GPIO_23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 -3.81 180)
+				(length 2.54)
+				(name "GPIO_24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 -6.35 180)
+				(length 2.54)
+				(name "Ground"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -388,6 +496,186 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 -8.89 180)
+				(length 2.54)
+				(name "GPIO_25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 -11.43 180)
+				(length 2.54)
+				(name "GPIO_8_Chip_Enable-CE0_(SPI0)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 -13.97 180)
+				(length 2.54)
+				(name "GPIO_7_Chip_Enable-CE1_(SPI0)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 -16.51 180)
+				(length 2.54)
+				(name "GPIO_1_EEPROM_Serial_Clock_(I2C)"
+					(effects
+						(font
+							(size 1.0922 1.0922)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 -19.05 180)
+				(length 2.54)
+				(name "Ground"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 -21.59 180)
+				(length 2.54)
+				(name "GPIO_12_(PWM)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 -24.13 180)
+				(length 2.54)
+				(name "Ground"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 -26.67 180)
+				(length 2.54)
+				(name "GPIO_16_Chip_Enable-CE2_(SPI_1)"
+					(effects
+						(font
+							(size 1.2446 1.2446)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 -29.21 180)
+				(length 2.54)
+				(name "GPIO_20_MISO_(SPI_1)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 -31.75 180)
+				(length 2.54)
+				(name "GPIO_21_SCLK_(SPI_1)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -419,7 +707,7 @@
 				(name "GPIO_17_Chip_Enable-CE1_(SPI1)"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -434,7 +722,7 @@
 			(pin input line
 				(at -31.75 1.27 0)
 				(length 2.54)
-				(name "3.9V"
+				(name "GPIO_27"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -452,7 +740,7 @@
 			(pin input line
 				(at -31.75 -1.27 0)
 				(length 2.54)
-				(name "3.10V"
+				(name "GPIO_22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -470,7 +758,7 @@
 			(pin input line
 				(at -31.75 -3.81 0)
 				(length 2.54)
-				(name "3.11V"
+				(name "3.3V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -488,7 +776,7 @@
 			(pin input line
 				(at -31.75 -6.35 0)
 				(length 2.54)
-				(name "3.12V"
+				(name "GPIO_10_MOSI_(SPI_0)"
 					(effects
 						(font
 							(size 1.27 1.27)
