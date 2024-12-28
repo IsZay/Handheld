@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "bd82f029-59b3-47bf-a2cf-764bce05225c")
 	(paper "A4")
+	(title_block
+		(title "Handheld_PCB")
+		(date "2024-12-27")
+		(rev "1.0")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
