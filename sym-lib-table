@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Shakir_Display_Library")(type "KiCad")(uri "${KIPRJMOD}/Shakir_Display_Library.kicad_sym")(options "")(descr ""))
+)
