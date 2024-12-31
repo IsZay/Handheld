@@ -188,7 +188,55 @@
 			)
 		)
 	)
-	(symbol "Right_Angle_Switch"
+	(symbol "Right-Angled_Switch_like_lightswitch"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Right_Angle_Button_Switch"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -235,7 +283,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Right_Angle_Switch_0_0"
+		(symbol "Right_Angle_Button_Switch_0_0"
 			(circle
 				(center 0 -1.016)
 				(radius 0.3592)
@@ -259,7 +307,7 @@
 				)
 			)
 		)
-		(symbol "Right_Angle_Switch_0_1"
+		(symbol "Right_Angle_Button_Switch_0_1"
 			(polyline
 				(pts
 					(xy 0 -1.27) (xy 0 -2.54)
@@ -285,7 +333,7 @@
 				)
 			)
 		)
-		(symbol "Right_Angle_Switch_1_0"
+		(symbol "Right_Angle_Button_Switch_1_0"
 			(polyline
 				(pts
 					(xy 0 0.254) (xy 0.762 -1.016)
@@ -299,7 +347,15 @@
 				)
 			)
 		)
-		(symbol "Right_Angle_Switch_1_1"
+		(symbol "Right_Angle_Button_Switch_1_1"
+			(text "Right Angle"
+				(at 0.254 -3.302 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
 			(pin input line
 				(at -2.54 2.54 0)
 				(length 2.54)

@@ -5971,16 +5971,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "4820c735-d774-4b25-a273-79bb6541a42a")
+			(uuid "4820c735-d774-4b25-a273-79bb6541a42b")
 		)
 		(pin "2"
-			(uuid "9bcbeb22-c761-42b7-9314-0754367b62de")
+			(uuid "9bcbeb22-c761-42b7-9314-0754367b62df")
 		)
 		(pin "1"
-			(uuid "505ba6dc-779e-4e32-8a8e-ea01ad8f55d3")
+			(uuid "505ba6dc-779e-4e32-8a8e-ea01ad8f55d4")
 		)
 		(pin "4"
-			(uuid "08f925d4-86ea-4adc-a7e6-4665158e03a7")
+			(uuid "08f925d4-86ea-4adc-a7e6-4665158e03a8")
 		)
 		(instances
 			(project ""
