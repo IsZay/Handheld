@@ -236,7 +236,7 @@
 			(pin input line
 				(at -31.75 -26.67 0)
 				(length 2.54)
-				(name "[PWM]_GPIO_19_MISO_(SPI_1)"
+				(name "GPIO_19_(PCM_FS)"
 					(effects
 						(font
 							(size 1.2446 1.2446)
@@ -272,7 +272,7 @@
 			(pin input line
 				(at -31.75 -31.75 0)
 				(length 2.54)
-				(name "GPIO_26"
+				(name "Ground"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -398,10 +398,10 @@
 			(pin input line
 				(at 35.56 3.81 180)
 				(length 2.54)
-				(name "GPIO_18_Chip_Enable-CE0_(SP1)_[PWM]"
+				(name "GPIO_18_(PCM_CLK)"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -632,10 +632,10 @@
 			(pin input line
 				(at 35.56 -26.67 180)
 				(length 2.54)
-				(name "GPIO_16_Chip_Enable-CE2_(SPI_1)"
+				(name "GPIO_16_ThisWrongIthink"
 					(effects
 						(font
-							(size 1.2446 1.2446)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -650,7 +650,7 @@
 			(pin input line
 				(at 35.56 -29.21 180)
 				(length 2.54)
-				(name "GPIO_20_MISO_(SPI_1)"
+				(name "GPIO_20_(PCM_DIN)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -668,7 +668,7 @@
 			(pin input line
 				(at 35.56 -31.75 180)
 				(length 2.54)
-				(name "GPIO_21_SCLK_(SPI_1)"
+				(name "GPIO_21_(PCM_DOUT)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -704,10 +704,10 @@
 			(pin input line
 				(at -31.75 3.81 0)
 				(length 2.54)
-				(name "GPIO_17_Chip_Enable-CE1_(SPI1)"
+				(name "GPIO_17_PlusSomnIdk"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
