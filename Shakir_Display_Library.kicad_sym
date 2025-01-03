@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TFT_LCD_3.2_inch_(ILI9341)_0_1"
+		(symbol "TFT_LCD_3.2_inch_(ILI9341)_1_1"
 			(rectangle
 				(start -6.35 16.256)
 				(end 6.35 -6.096)
@@ -58,11 +58,9 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "TFT_LCD_3.2_inch_(ILI9341)_1_1"
 			(pin input line
 				(at -8.89 15.24 0)
 				(length 2.54)
@@ -159,7 +157,7 @@
 				(name "T_IRQ"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -231,7 +229,7 @@
 				(name "DC/RS"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -249,7 +247,7 @@
 				(name "SDI(MOSI)"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.143 1.143)
 						)
 					)
 				)
@@ -264,7 +262,7 @@
 			(pin input line
 				(at -8.89 0 0)
 				(length 2.54)
-				(name "VCC"
+				(name "SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -282,7 +280,7 @@
 			(pin input line
 				(at -8.89 -2.54 0)
 				(length 2.54)
-				(name "VCC"
+				(name "LED"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -300,10 +298,10 @@
 			(pin input line
 				(at -8.89 -5.08 0)
 				(length 2.54)
-				(name "VCC"
+				(name "SDO(MISO)"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 					)
 				)
