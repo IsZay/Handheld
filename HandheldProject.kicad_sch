@@ -4,14 +4,6 @@
 	(generator_version "8.0")
 	(uuid "bd82f029-59b3-47bf-a2cf-764bce05225c")
 	(paper "A4")
-<<<<<<< HEAD
-	(title_block
-		(title "Handheld_PCB")
-		(date "2024-12-27")
-		(rev "1.0")
-	)
-	(lib_symbols)
-=======
 	(lib_symbols
 		(symbol "4_Pin_Push_Button_Switch_Library:4_Pin_Push_Button_Switch"
 			(exclude_from_sim no)
@@ -11982,7 +11974,6 @@
 			)
 		)
 	)
->>>>>>> 90e47000a7f59f45f95d30048fc708ea8d26d93e
 	(sheet_instances
 		(path "/"
 			(page "1")
