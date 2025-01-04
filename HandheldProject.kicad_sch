@@ -6644,6 +6644,16 @@
 		)
 		(uuid "94a7bf9e-8b29-4fb5-ae88-404c775741d8")
 	)
+	(text "Maybe Connect to\nMUTESW Label"
+		(exclude_from_sim no)
+		(at 129.032 56.642 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a40548cd-5434-492f-8374-35a9db752055")
+	)
 	(text "Not sure this is SCLK or DOUT\n"
 		(exclude_from_sim no)
 		(at 244.856 157.988 0)
@@ -6683,6 +6693,16 @@
 			)
 		)
 		(uuid "c452d337-97e0-4080-aef2-6df34080fe33")
+	)
+	(text "The IC wants 3.3V, but the board wants 5V\n"
+		(exclude_from_sim no)
+		(at 119.888 137.414 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c540359d-f2c5-48de-913b-ca8ad32dcd88")
 	)
 	(text "INL and INR are\nLeft and Right Channel Input\nRespectively obv"
 		(exclude_from_sim no)
@@ -7119,17 +7139,6 @@
 			(justify left bottom)
 		)
 		(uuid "872ccc76-b387-470e-aebb-5e0c3536300c")
-	)
-	(label "3.3V"
-		(at 190.5 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "908fec29-3d78-4189-8cd1-14b9cdf516bd")
 	)
 	(label "B (Button)"
 		(at 262.89 125.73 0)
