@@ -5445,6 +5445,16 @@
 		)
 		(uuid "56df47ef-2648-456b-b80a-8deec14cf981")
 	)
+	(text "Brown"
+		(exclude_from_sim no)
+		(at 192.786 108.204 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "00812979-fc86-4180-895c-b6a5a8c7db21")
+	)
 	(text "5V Analog\nor Digital?"
 		(exclude_from_sim no)
 		(at 200.66 44.196 0)
@@ -5454,6 +5464,26 @@
 			)
 		)
 		(uuid "01ee6749-c965-4809-a8ca-a1a28398dfaf")
+	)
+	(text "Orange"
+		(exclude_from_sim no)
+		(at 263.652 118.364 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "050b57f5-78b1-4ec3-a079-dadb4d1a2ca8")
+	)
+	(text "Black"
+		(exclude_from_sim no)
+		(at 192.786 125.984 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "0637d223-d1a9-40c8-8c2c-b466de723d51")
 	)
 	(text "XSMT Pin (Soft Mute / Soft Un-Mute)\n"
 		(exclude_from_sim no)
@@ -5475,6 +5505,16 @@
 		)
 		(uuid "0c6c183d-a130-4c0d-8136-4dffe56ba53c")
 	)
+	(text "Orange"
+		(exclude_from_sim no)
+		(at 192.532 136.144 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "0d5ceeef-ee68-4c0d-ae26-5a7facae2062")
+	)
 	(text "SDI = Slave Data Input\nSDO = Slave Data Output\nFor this to make sense"
 		(exclude_from_sim no)
 		(at 175.768 132.334 0)
@@ -5484,6 +5524,26 @@
 			)
 		)
 		(uuid "0eaa9160-823e-4f8b-8ecf-f6632abf2e7b")
+	)
+	(text "Blue"
+		(exclude_from_sim no)
+		(at 263.144 128.524 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "1141a4d2-0523-404c-b1ad-10c6e8322ea1")
+	)
+	(text "Red"
+		(exclude_from_sim no)
+		(at 193.294 146.304 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "129ffd75-edcf-4201-ab8b-8ca07cc3d6e1")
 	)
 	(text "3 Right Angle Buttons"
 		(exclude_from_sim no)
@@ -5515,6 +5575,36 @@
 		)
 		(uuid "25afbd2f-7fe7-41d0-8b9e-eb14030b0cb5")
 	)
+	(text "Green"
+		(exclude_from_sim no)
+		(at 263.144 151.384 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "29790777-2370-4fd1-9f57-47c5b821676e")
+	)
+	(text "Orange"
+		(exclude_from_sim no)
+		(at 192.532 151.384 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "316a7b8a-379a-49b2-9507-f5647708f71f")
+	)
+	(text "Blue"
+		(exclude_from_sim no)
+		(at 193.04 110.744 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "3a7e0d6b-f79b-4794-acdc-95dd17e47009")
+	)
 	(text "Connect LED to 3.3V if \nyou want it to always \nbe bright, and GND \nif you want it off?\nChange R (Button)\nto pin 18 and make 35\nPWN pin connect here\ndo this on breadboard!"
 		(exclude_from_sim no)
 		(at 75.438 64.516 0)
@@ -5524,6 +5614,46 @@
 			)
 		)
 		(uuid "3ddf76f4-6da0-4bb2-97bd-9026e849caf2")
+	)
+	(text "Purple"
+		(exclude_from_sim no)
+		(at 263.398 133.604 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "5185ba5f-27a0-4362-83c2-60191486d375")
+	)
+	(text "White"
+		(exclude_from_sim no)
+		(at 192.786 123.444 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "69db4d1f-2c6b-4961-b850-338dd51e299c")
+	)
+	(text "Black"
+		(exclude_from_sim no)
+		(at 192.786 148.844 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "6e6ca51d-8d77-41b2-9fe9-c52ebc2ecf9f")
+	)
+	(text "Yellow"
+		(exclude_from_sim no)
+		(at 192.786 133.604 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "713171cd-3fac-4fad-926f-62b207faba28")
 	)
 	(text "GND Analog\nor Digital?"
 		(exclude_from_sim no)
@@ -5535,6 +5665,16 @@
 		)
 		(uuid "92129252-d065-4335-916c-dafb0db26c72")
 	)
+	(text "Yellow"
+		(exclude_from_sim no)
+		(at 262.89 156.464 0)
+		(effects
+			(font
+				(size 0.381 0.381)
+			)
+		)
+		(uuid "92c61096-6d0b-4c0b-a31e-826290ca5643")
+	)
 	(text "TFT"
 		(exclude_from_sim no)
 		(at 96.52 27.686 0)
@@ -5544,6 +5684,16 @@
 			)
 		)
 		(uuid "94a7bf9e-8b29-4fb5-ae88-404c775741d8")
+	)
+	(text "Brown"
+		(exclude_from_sim no)
+		(at 192.786 143.764 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "9a18f7dc-a58e-43e1-be91-4f42e04cd6e7")
 	)
 	(text "Maybe Connect to\nMUTESW Label"
 		(exclude_from_sim no)
@@ -5555,6 +5705,16 @@
 		)
 		(uuid "a40548cd-5434-492f-8374-35a9db752055")
 	)
+	(text "Red"
+		(exclude_from_sim no)
+		(at 193.294 115.824 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "a7910f35-cf51-45e6-abed-c5bb586955db")
+	)
 	(text "Not sure this is SCLK or DOUT\n"
 		(exclude_from_sim no)
 		(at 244.856 157.988 0)
@@ -5565,6 +5725,36 @@
 		)
 		(uuid "a8b2b7ba-3659-4903-9884-e750fae58703")
 	)
+	(text "Gray"
+		(exclude_from_sim no)
+		(at 263.398 120.904 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "b1e43a89-ea96-4eb7-beca-f8e792ae3449")
+	)
+	(text "Space"
+		(exclude_from_sim no)
+		(at 263.398 110.744 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "b84cbb82-aa07-450c-8769-f87490c0f64f")
+	)
+	(text "Purple"
+		(exclude_from_sim no)
+		(at 192.786 113.284 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "c36ac88b-1339-496a-8db6-5f27523a983a")
+	)
 	(text "SPI 0 Location"
 		(exclude_from_sim no)
 		(at 76.708 21.844 0)
@@ -5574,6 +5764,36 @@
 			)
 		)
 		(uuid "c452d337-97e0-4080-aef2-6df34080fe33")
+	)
+	(text "Green"
+		(exclude_from_sim no)
+		(at 192.786 131.064 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "ce5f1320-aa1a-420d-bd89-027a6ddf027a")
+	)
+	(text "White"
+		(exclude_from_sim no)
+		(at 263.144 136.144 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "cf91140b-81e2-4fba-bc71-14c2ea2fc4a9")
+	)
+	(text "Brown"
+		(exclude_from_sim no)
+		(at 192.786 120.904 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "cfc1a5c7-eaf9-43ad-a8e3-e975ccb9ec38")
 	)
 	(text "4 Buttons"
 		(exclude_from_sim no)
@@ -5595,6 +5815,16 @@
 		)
 		(uuid "e2951b76-2470-44df-8ecc-5f1e92645eca")
 	)
+	(text "Yellow"
+		(exclude_from_sim no)
+		(at 263.398 125.984 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "e927c112-3eee-4078-95b0-75808c21ecdc")
+	)
 	(text "Will be 4.2 V at Max"
 		(exclude_from_sim no)
 		(at 273.05 112.014 0)
@@ -5604,6 +5834,46 @@
 			)
 		)
 		(uuid "ebd8ce00-8edb-4a19-844c-254a80bd5a28")
+	)
+	(text "Black"
+		(exclude_from_sim no)
+		(at 263.144 148.844 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "f67af833-9f02-42df-b86d-cca21c10ecc5")
+	)
+	(text "Green"
+		(exclude_from_sim no)
+		(at 263.144 146.304 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "fc4467e2-4889-4a7f-86a2-c45939aaa050")
+	)
+	(text "Space"
+		(exclude_from_sim no)
+		(at 263.144 143.764 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "fc649c21-aaf6-431f-af77-ebf088b41e0e")
+	)
+	(text "Space"
+		(exclude_from_sim no)
+		(at 192.786 156.464 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "fe4afb0d-a993-4ef8-a262-62ba17829857")
 	)
 	(label "SCLK"
 		(at 85.09 50.8 0)
